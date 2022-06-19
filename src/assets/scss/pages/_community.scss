@@ -1,0 +1,14 @@
+.community {
+    &-box {
+        margin: auto;
+        box-shadow: 1px 1px 11px #877f7f;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        &-list {
+            &.MuiList-root {
+                width: 100%;
+            }
+        }
+    }
+}

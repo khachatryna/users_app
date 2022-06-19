@@ -1,0 +1,23 @@
+.MuiCard-root {
+    &.user-card {
+        box-shadow: 1px 1px 11px #877f7f;
+        & .user-card-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            & .title {
+                color: #ccc;
+            }
+            & .avatar {
+                transition:  0.3s ease-in-out;
+            }
+            &:hover {
+                & .avatar {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
+}
